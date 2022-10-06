@@ -13,6 +13,7 @@
 		1490275428ECFCE600F82B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1490275228ECFCE600F82B04 /* Main.storyboard */; };
 		1490275628ECFCE800F82B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1490275528ECFCE800F82B04 /* Assets.xcassets */; };
 		1490275928ECFCE800F82B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1490275728ECFCE800F82B04 /* LaunchScreen.storyboard */; };
+		1490276128EF919400F82B04 /* ViewTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1490276028EF919400F82B04 /* ViewTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1490275528ECFCE800F82B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1490275828ECFCE800F82B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1490275A28ECFCE800F82B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1490276028EF919400F82B04 /* ViewTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1490274C28ECFCE600F82B04 /* AppDelegate.swift */,
 				1490274E28ECFCE600F82B04 /* SceneDelegate.swift */,
 				1490275028ECFCE600F82B04 /* ViewController.swift */,
+				1490276028EF919400F82B04 /* ViewTwoViewController.swift */,
 				1490275228ECFCE600F82B04 /* Main.storyboard */,
 				1490275528ECFCE800F82B04 /* Assets.xcassets */,
 				1490275728ECFCE800F82B04 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				1490275128ECFCE600F82B04 /* ViewController.swift in Sources */,
 				1490274D28ECFCE600F82B04 /* AppDelegate.swift in Sources */,
+				1490276128EF919400F82B04 /* ViewTwoViewController.swift in Sources */,
 				1490274F28ECFCE600F82B04 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
