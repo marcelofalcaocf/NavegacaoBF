@@ -13,9 +13,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func actionBotton(_ sender: Any) {
+    
+    @IBAction func actionBottonViewTwo(_ sender: Any) {
         performSegue(withIdentifier: "goToViewTwo", sender: nil)
     }
+    
+    
 }
 

@@ -11,25 +11,29 @@
         <!--View Controller-->
         <scene sceneID="0Gp-k9-2q3">
             <objects>
-                <viewController id="ly6-p6-m3m" sceneMemberID="viewController">
+                <viewController id="ly6-p6-m3m" customClass="ViewController" customModule="NavegacaoBF" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="73R-zx-v4L">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUV-vU-75y">
-                                <rect key="frame" x="124" y="405" width="143" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUV-vU-75y">
+                                <rect key="frame" x="123.66666666666669" y="404.66666666666669" width="143" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Ir para tela Dois">
                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="actionBotton:" destination="A19-ZO-3Uh" eventType="touchUpInside" id="Ujy-Ln-ZKN"/>
+                                    <action selector="actionBottonViewTwo:" destination="ly6-p6-m3m" eventType="touchUpInside" id="61T-ha-VFx"/>
+                                    <action selector="actionBottonViewTwo:" destination="A19-ZO-3Uh" eventType="touchUpInside" id="w0c-CX-0Cm"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kIr-RD-0Qg"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="iUV-vU-75y" firstAttribute="centerY" secondItem="73R-zx-v4L" secondAttribute="centerY" id="hwr-LP-zVQ"/>
+                            <constraint firstItem="iUV-vU-75y" firstAttribute="centerX" secondItem="73R-zx-v4L" secondAttribute="centerX" id="t6i-sO-lS2"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="QPC-j3-va3" kind="presentation" identifier="goToViewTwo" id="19J-eG-W9x"/>
