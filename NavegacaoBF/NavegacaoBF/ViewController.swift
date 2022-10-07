@@ -15,9 +15,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionBottonViewTwo(_ sender: Any) {
-         performSegue(withIdentifier: "goToViewTwo", sender: nil)
+        let vc: ViewTwoViewController = ViewTwoViewController()
+        navigationController?.pushViewController(vc, animated: false)
     }
     
+    @IBAction func actionButtonViewThree(_ sender: Any) {
+        let vc: ViewTwoViewController = ViewTwoViewController()
+        navigationController?.present(vc, animated: false)
+    }
     
 }
 

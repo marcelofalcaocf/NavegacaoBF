@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUV-vU-75y">
-                                <rect key="frame" x="124" y="405" width="143" height="35"/>
+                                <rect key="frame" x="123.66666666666669" y="404.66666666666669" width="143" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Ir para tela Dois">
                                     <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -27,33 +27,33 @@
                                     <action selector="actionBottonViewTwo:" destination="A19-ZO-3Uh" eventType="touchUpInside" id="w0c-CX-0Cm"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnR-Js-sh8">
+                                <rect key="frame" x="125" y="620.66666666666663" width="142" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ir para tela Tres">
+                                    <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="actionButtonViewThree:" destination="ly6-p6-m3m" eventType="touchUpInside" id="y1j-dH-hnx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kIr-RD-0Qg"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
                         <constraints>
+                            <constraint firstItem="cnR-Js-sh8" firstAttribute="leading" secondItem="kIr-RD-0Qg" secondAttribute="leading" constant="125" id="BOE-u3-Ym9"/>
+                            <constraint firstItem="cnR-Js-sh8" firstAttribute="top" secondItem="iUV-vU-75y" secondAttribute="bottom" constant="181.33000000000001" id="JU6-J2-flK"/>
                             <constraint firstItem="iUV-vU-75y" firstAttribute="centerY" secondItem="73R-zx-v4L" secondAttribute="centerY" id="hwr-LP-zVQ"/>
+                            <constraint firstItem="kIr-RD-0Qg" firstAttribute="trailing" secondItem="cnR-Js-sh8" secondAttribute="trailing" constant="123" id="lNv-pp-IZo"/>
                             <constraint firstItem="iUV-vU-75y" firstAttribute="centerX" secondItem="73R-zx-v4L" secondAttribute="centerX" id="t6i-sO-lS2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ks1-Yi-LqU"/>
-                    <connections>
-                        <segue destination="B7T-6t-KF4" kind="show" identifier="goToViewTwo" id="6Ja-UP-bA7"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aG2-mX-e8r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="A19-ZO-3Uh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1030.7692307692307" y="873.69668246445497"/>
-        </scene>
-        <!--ViewTwoViewController-->
-        <scene sceneID="UOA-fj-Lpq">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ViewTwoViewController" id="B7T-6t-KF4" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="4vj-ZM-eUm"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nWn-FD-bjb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1929" y="827"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HuZ-Aq-Gs5">
