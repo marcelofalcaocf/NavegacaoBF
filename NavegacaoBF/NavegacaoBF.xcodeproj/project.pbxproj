@@ -14,6 +14,7 @@
 		1490275628ECFCE800F82B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1490275528ECFCE800F82B04 /* Assets.xcassets */; };
 		1490275928ECFCE800F82B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1490275728ECFCE800F82B04 /* LaunchScreen.storyboard */; };
 		1490276128EF919400F82B04 /* ViewTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1490276028EF919400F82B04 /* ViewTwoViewController.swift */; };
+		1490276328EFABB700F82B04 /* ViewTwoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1490276228EFABB700F82B04 /* ViewTwoViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1490275828ECFCE800F82B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1490275A28ECFCE800F82B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1490276028EF919400F82B04 /* ViewTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTwoViewController.swift; sourceTree = "<group>"; };
+		1490276228EFABB700F82B04 /* ViewTwoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewTwoViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				1490275228ECFCE600F82B04 /* Main.storyboard */,
 				1490275528ECFCE800F82B04 /* Assets.xcassets */,
 				1490275728ECFCE800F82B04 /* LaunchScreen.storyboard */,
+				1490276228EFABB700F82B04 /* ViewTwoViewController.storyboard */,
 				1490275A28ECFCE800F82B04 /* Info.plist */,
 			);
 			path = NavegacaoBF;
@@ -130,6 +133,7 @@
 			files = (
 				1490275928ECFCE800F82B04 /* LaunchScreen.storyboard in Resources */,
 				1490275628ECFCE800F82B04 /* Assets.xcassets in Resources */,
+				1490276328EFABB700F82B04 /* ViewTwoViewController.storyboard in Resources */,
 				1490275428ECFCE600F82B04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

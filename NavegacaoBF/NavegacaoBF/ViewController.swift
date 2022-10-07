@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionBottonViewTwo(_ sender: Any) {
-        // performSegue(withIdentifier: "goToViewTwo", sender: nil)
+         performSegue(withIdentifier: "goToViewTwo", sender: nil)
     }
     
     
