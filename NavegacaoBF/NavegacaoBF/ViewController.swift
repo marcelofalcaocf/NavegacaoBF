@@ -15,13 +15,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionBottonViewTwo(_ sender: Any) {
-        let vc: ViewTwoViewController = ViewTwoViewController()
-        navigationController?.pushViewController(vc, animated: false)
+        let vc =  UIStoryboard(name: "ViewTwoViewController", bundle: nil).instantiateViewController(withIdentifier: "ViewTwoViewController") as? ViewTwoViewController
+        // let vc: ViewTwoViewController = ViewTwoViewController()
+        navigationController?.pushViewController(vc ?? UIViewController(), animated: false)
     }
     
     @IBAction func actionButtonViewThree(_ sender: Any) {
-        let vc: ViewTwoViewController = ViewTwoViewController()
-        navigationController?.present(vc, animated: false)
+        let vc =  UIStoryboard(name: "ViewTwoViewController", bundle: nil).instantiateViewController(withIdentifier: "ViewTwoViewController") as? ViewTwoViewController
+
+        // let vc: ViewTwoViewController = ViewTwoViewController()
+        present(vc ?? UIViewController(), animated: true)
     }
     
 }
