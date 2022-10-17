@@ -37,18 +37,56 @@
                                     <action selector="actionButtonViewThree:" destination="ly6-p6-m3m" eventType="touchUpInside" id="y1j-dH-hnx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digite seu nome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7N-7K-Gnr">
+                                <rect key="frame" x="55" y="113" width="128" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Seu nome" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pLh-g6-nsK">
+                                <rect key="frame" x="16" y="142" width="358" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Digite sua idade:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVU-bk-EBy">
+                                <rect key="frame" x="55" y="214" width="127" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Sua idade" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WAc-O3-Inl">
+                                <rect key="frame" x="16" y="249" width="358" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kIr-RD-0Qg"/>
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
                         <constraints>
+                            <constraint firstItem="C7N-7K-Gnr" firstAttribute="top" secondItem="kIr-RD-0Qg" secondAttribute="top" constant="22" id="43r-vo-LFY"/>
+                            <constraint firstItem="kIr-RD-0Qg" firstAttribute="trailing" secondItem="WAc-O3-Inl" secondAttribute="trailing" constant="16" id="6xH-YS-Gum"/>
                             <constraint firstItem="cnR-Js-sh8" firstAttribute="leading" secondItem="kIr-RD-0Qg" secondAttribute="leading" constant="125" id="BOE-u3-Ym9"/>
                             <constraint firstItem="cnR-Js-sh8" firstAttribute="top" secondItem="iUV-vU-75y" secondAttribute="bottom" constant="181.33000000000001" id="JU6-J2-flK"/>
+                            <constraint firstItem="kIr-RD-0Qg" firstAttribute="trailing" secondItem="pLh-g6-nsK" secondAttribute="trailing" constant="16" id="KgF-kP-QYm"/>
+                            <constraint firstItem="rVU-bk-EBy" firstAttribute="top" secondItem="pLh-g6-nsK" secondAttribute="bottom" constant="38" id="Nk4-IF-yrk"/>
+                            <constraint firstItem="rVU-bk-EBy" firstAttribute="leading" secondItem="kIr-RD-0Qg" secondAttribute="leading" constant="55" id="a50-aC-wpL"/>
+                            <constraint firstItem="kIr-RD-0Qg" firstAttribute="trailing" secondItem="rVU-bk-EBy" secondAttribute="trailing" constant="208" id="aDn-sV-Er0"/>
+                            <constraint firstItem="kIr-RD-0Qg" firstAttribute="trailing" secondItem="C7N-7K-Gnr" secondAttribute="trailing" constant="207" id="cQ8-5b-q6q"/>
+                            <constraint firstItem="pLh-g6-nsK" firstAttribute="leading" secondItem="kIr-RD-0Qg" secondAttribute="leading" constant="16" id="f88-0J-JzS"/>
                             <constraint firstItem="iUV-vU-75y" firstAttribute="centerY" secondItem="73R-zx-v4L" secondAttribute="centerY" id="hwr-LP-zVQ"/>
+                            <constraint firstItem="C7N-7K-Gnr" firstAttribute="leading" secondItem="kIr-RD-0Qg" secondAttribute="leading" constant="55" id="iBx-bv-7iz"/>
                             <constraint firstItem="kIr-RD-0Qg" firstAttribute="trailing" secondItem="cnR-Js-sh8" secondAttribute="trailing" constant="123" id="lNv-pp-IZo"/>
+                            <constraint firstItem="WAc-O3-Inl" firstAttribute="top" secondItem="rVU-bk-EBy" secondAttribute="bottom" constant="14" id="p6M-fo-dGg"/>
                             <constraint firstItem="iUV-vU-75y" firstAttribute="centerX" secondItem="73R-zx-v4L" secondAttribute="centerX" id="t6i-sO-lS2"/>
+                            <constraint firstItem="pLh-g6-nsK" firstAttribute="top" secondItem="C7N-7K-Gnr" secondAttribute="bottom" constant="8" symbolic="YES" id="wCe-Y9-S8Q"/>
+                            <constraint firstItem="WAc-O3-Inl" firstAttribute="leading" secondItem="kIr-RD-0Qg" secondAttribute="leading" constant="16" id="wNk-VQ-agq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ks1-Yi-LqU"/>
+                    <connections>
+                        <outlet property="ageTextField" destination="WAc-O3-Inl" id="Ibg-7Q-pIx"/>
+                        <outlet property="nameTextField" destination="pLh-g6-nsK" id="TUc-Yg-spP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aG2-mX-e8r" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="A19-ZO-3Uh" userLabel="Exit" sceneMemberID="exit"/>
